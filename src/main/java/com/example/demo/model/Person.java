@@ -22,6 +22,10 @@ public class Person {
     @Column
     private UUID ID;
     @Column
-    private String name;
+    private String firstName;
+    @Column
+    private String lastName;
+    @Column
+    private String address;
 }
 
